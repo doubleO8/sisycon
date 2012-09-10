@@ -12,7 +12,7 @@ Needs [binwalk](https://code.google.com/p/binwalk/), unsquashfs, sudo.
 Optional: rsync, git.
 Tested with `Binwalk v0.4.3` and `unsquashfs version 4.2 (2011/02/28)`.
 
-Images have to be named *<DEVICE>*<X>*<Y>*<Z>*.zip with <DEVICE> being 'livegen3' or 'livehub' and <X>, <Y> and <Z> being integers representing the version number.
+Images have to be named `*DEVICE*X*Y*Z*.zip` with `DEVICE` being 'livegen3' or 'livehub' and `X`, `Y` and `Z` being integers representing the version number.
 One can get these firmware images from e.g. [WD Rollback site](http://wdc.custhelp.com/app/answers/detail/a_id/5860/~/how-to-roll-back-the-firmware-on-a-wd-tv-live-hub-media-center-or-wd-tv-live).
 
 	Usage: wdtv_firmware_extract.py [options]
